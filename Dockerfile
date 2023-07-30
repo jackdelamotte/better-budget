@@ -14,4 +14,4 @@ RUN pip install poetry
 RUN poetry config virtualenvs.create false \
     && poetry install
 
-CMD ["poetry", "run", "python", "ynab_interface.py"]
+CMD ["poetry", "run", "python", "src/api.py"]
