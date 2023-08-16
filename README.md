@@ -1,8 +1,8 @@
 # Better Budget
 
-### A budgeting tool that fits my personal use case
+### An alternative web client for YNAB (You Need a Budget) tailored to my budgeting needs
 
-Budgeting tools tend to overcomplicate things. This tool will be designed to abstract away complexity and show me the exact budgeting metrics that I care about.
+Budgeting tools tend to overcomplicate things. This web app sits on top of the YNAB API and will be designed to abstract away complexity and show me the exact budgeting metrics that I care about.
 
 ## Architecture
 
