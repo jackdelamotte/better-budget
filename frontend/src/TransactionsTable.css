@@ -1,0 +1,42 @@
+/* TransactionsTable.css */
+.filter-bar {
+  padding: 10px; /* Adjust padding for the filter bar */
+  border-radius: 8px 8px 0 0 !important;
+}
+
+/* Apply styles to filter elements */
+.filter-bar .MuiTextField-root {
+  margin-right: 8px; /* Add some spacing between filter elements */
+  width: 120px; /* Adjust width to make filter elements smaller */
+  height: 20px;
+}
+
+.filter-bar .MuiFormControlLabel-label {
+  font-size: 12px; /* Reduce font size for the filter labels */
+}
+
+.filter-bar .MuiSwitch-root {
+  transform: scale(0.8); /* Make the switch smaller */
+}
+
+.table-container {
+  border-radius: 0 0 8px 8px !important; /* Rounded bottom corners */
+  max-height: 500px; /* Set the maximum height for the table container */
+  overflow-y: scroll; /* Enable vertical scrolling for overflow content */
+}
+
+.table-container th {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Add background color to column headers */
+  padding: 5px;
+  /*z-index: 1; /* Ensure the headers appear above the table body */
+}
+
+.table-container tr {
+  height: 20px !important; /* Set the desired height for each row */
+}
+
+.table-container td {
+  padding: 5px;
+}
