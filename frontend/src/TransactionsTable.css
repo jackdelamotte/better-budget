@@ -1,14 +1,17 @@
 /* TransactionsTable.css */
 .filter-bar {
   padding: 10px; /* Adjust padding for the filter bar */
+  /*padding-bottom: 5px;*/
   border-radius: 8px 8px 0 0 !important;
+  display: flex;
+  align-items: center;
 }
 
 /* Apply styles to filter elements */
 .filter-bar .MuiTextField-root {
   margin-right: 8px; /* Add some spacing between filter elements */
   width: 120px; /* Adjust width to make filter elements smaller */
-  height: 20px;
+  height: 10px;
 }
 
 .filter-bar .MuiFormControlLabel-label {
@@ -16,7 +19,7 @@
 }
 
 .filter-bar .MuiSwitch-root {
-  transform: scale(0.8); /* Make the switch smaller */
+  transform: scale(0.6); /* Make the switch smaller */
 }
 
 .table-container {

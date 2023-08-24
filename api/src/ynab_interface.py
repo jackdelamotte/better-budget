@@ -73,7 +73,7 @@ class YNABInterface:
         if filter_irrelevant:
             df = df[
                 ~df["payee_name"].str.contains(
-                    "transfer|chase credit crd epay|starting balance|wealthfront",
+                    "transfer|chase credit crd epay|starting balance|wealthfront|payment thank you-mobile",
                     case=False,
                     na=False,
                 )

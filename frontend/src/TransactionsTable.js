@@ -16,8 +16,8 @@ import {
 import "./TransactionsTable.css";
 import FilterListIcon from "@mui/icons-material/FilterList";
 
-function TransactionsTable() {
-  const [data, setData] = useState(null);
+function TransactionsTable({ data, setData }) {
+  //const [data, setData] = useState(null);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [hideIrrelevant, setHideIrrelevant] = useState(false);
@@ -125,7 +125,7 @@ function TransactionsTable() {
                   onChange={handleHideIrrelevantChange}
                 />
               }
-              label="Hide Irrelevant Transactions"
+              label="Hide Irrelevant"
             />
           </Grid>
         </Grid>

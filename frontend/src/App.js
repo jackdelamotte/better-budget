@@ -1,8 +1,8 @@
 import React from "react";
-import TransactionsTable from "./TransactionsTable";
+import TransactionDashboard from "./TransactionDashboard";
 
 function App() {
-  return <TransactionsTable />;
+  return <TransactionDashboard />;
 }
 
 export default App;
