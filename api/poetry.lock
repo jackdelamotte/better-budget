@@ -266,6 +266,17 @@ files = [
 ]
 
 [[package]]
+name = "nulltype"
+version = "2.3.1"
+description = "Null values and sentinels like (but not) None, False & True"
+optional = false
+python-versions = "*"
+files = [
+    {file = "nulltype-2.3.1-py2.py3-none-any.whl", hash = "sha256:16ae565745118e37e0558441f5821c76351d8c3a789640b5bca277cf65b2271b"},
+    {file = "nulltype-2.3.1.zip", hash = "sha256:64aa3cb2ab5e904d1b37175b9b922bea268c13f9ce32e3d373313150ab5ef272"},
+]
+
+[[package]]
 name = "numpy"
 version = "1.25.1"
 description = "Fundamental package for array computing in Python"
@@ -364,6 +375,21 @@ spss = ["pyreadstat (>=1.1.2)"]
 sql-other = ["SQLAlchemy (>=1.4.16)"]
 test = ["hypothesis (>=6.34.2)", "pytest (>=7.3.2)", "pytest-asyncio (>=0.17.0)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.6.3)"]
+
+[[package]]
+name = "plaid-python"
+version = "16.0.0"
+description = "Python client library for the Plaid API and Link"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "plaid-python-16.0.0.tar.gz", hash = "sha256:1686537d33ca89d63454f1d8ba2db902b166fcc0480bb627c28f53c8c4fbb2de"},
+]
+
+[package.dependencies]
+nulltype = "*"
+python-dateutil = "*"
+urllib3 = ">=1.25.3"
 
 [[package]]
 name = "python-dateutil"
@@ -484,4 +510,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "f9ef865c14c4cdb0156f904b12dc2be0cc39ce240f4a8b261e07ea36066554d4"
+content-hash = "ca6d416771adc4532e1d89e64d0c31155fb74e994539df3dabf184b648d006b0"

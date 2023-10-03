@@ -4,3 +4,4 @@ api/src/__pycache__
 frontend/node_modules
 frontend/.cache
 frontend/dist
+.DS_Store
